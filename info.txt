@@ -1,0 +1,29 @@
+https://retoolapi.dev/FMwk75/Expo
+See all available endpoints here (generated with json-server).
+Endpoint URL
+
+HTTP method endpoints
+
+GET
+/FMwk75/Expo
+
+GET filter
+/FMwk75/Expo?nombre=value
+
+GET by id
+/FMwk75/Expo/1
+
+GET paginate
+/FMwk75/Expo?_page=2&_limit=10
+
+POST
+/FMwk75/Expo
+
+PUT
+/FMwk75/Expo/1
+
+PATCH
+/FMwk75/Expo/1
+
+DELETE
+/FMwk75/Expo/1
