@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Gestion de equipo Expo</title>
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header class="container">
         <nav>
@@ -21,32 +21,37 @@
                 <li><a href="#">Mi perfil</a></li>
                 <li><a href="#" role="button">Cerrar Sesion</a></li>
             </ul>
-           
+
         </nav>
 
     </header>
 
-<main class="container">
-    <h2>Integrantes del equipo</h2>
+    <main class="container">
+        <h2>Integrantes del equipo</h2>
 
-    <table id="tabla">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Nombre</th>
-                <th>Apellido</th>
-                <th>Edad</th>
-                <th>Correo</th>
-                <th>Acciones</th><!--Para botones adicionales7-->
-            </tr>
-        </thead>
-        <tbody>
-           
-        </tbody>
-    </table>
+        <table id="tabla">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Edad</th>
+                    <th>Correo</th>
+                    <th>Acciones</th><!--Para botones adicionales-->
+                </tr>
+            </thead>
+            <tbody>
 
-</main>
+            </tbody>
+        </table>
+    </main>
+
+    <!--Botón flotante para agregar registros-->
+    <button class="add-button" id="btnAbrirModal" title="Agregar Integrante">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus-icon lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+    </button>
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
